@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/novus-alex/AVRCompiler">
-    <img src="logo_black.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">AVRCompiler</h3>
