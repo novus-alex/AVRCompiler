@@ -11,9 +11,14 @@
   </a>
 
   <h3 align="center">AVRCompiler</h3>
+  
+   <p align="center">
+    Compiler and Uploader for AVR microcontroller
+    <br />
+  </p>
 </p>
 
-Compiler and Uploader for AVR microcontroller
+
 
 ## Setup
 Works with java-11+ .
