@@ -13,7 +13,6 @@
   <h3 align="center">AVRCompiler</h3>
 </p>
 
-# AVRCompiler
 Compiler and Uploader for AVR microcontroller
 
 ## Setup
