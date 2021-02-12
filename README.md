@@ -18,6 +18,8 @@
 Works with java-11+ .
 Be sure to use the correct java version
 
+Please install avrdude and make sure you can use it in the cmd
+
 ## How to use
 First, you need to choose the correct port and microcontroller, then click "Upload", this button will open a file explorer window, choose your C/ASM file. Finally click open and that's all !
 
