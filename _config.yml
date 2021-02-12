@@ -1,5 +1,2 @@
 theme: jekyll-theme-cayman
-
-toc: true
-toc_label: "My Table of Contents"
-toc_icon: "logo"
+title: AVRCompiler
