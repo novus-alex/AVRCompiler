@@ -44,3 +44,5 @@ int main(void) {
 	return 0;
 }
 ```
+
+[Main Functions](https://novus-alex.github.io/AVRCompiler/main_functions)
