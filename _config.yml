@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
   features:
-    - navigation.instant
+    - navigation.tabs
     
 nav:
   - Section:
