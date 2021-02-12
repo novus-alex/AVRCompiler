@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Welcome to AVRCompiler docs
 
-You can use the [editor on GitHub](https://github.com/novus-alex/AVRCompiler/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This software was created to compile and upload C or ASM files to microcontroller such as atmega328p
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Basic Blink Example
 
-### Markdown
+this is a basic example of led blinking made for atmega328p
+```C
+#ifndef F_CPU
+#define F_CPU 1600000UL
+#endif
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#include <avr/io.h>
+#include <util/delay.h>
 
-```markdown
-Syntax highlighted code block
+int main(void) {
+	DDRC |= (1 << PC5);
+	while (1) {
 
-# Header 1
-## Header 2
-### Header 3
+		// Toggle LED at port PC5
+		PORTC ^= (1 << PC5);
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+		// Delay for 500ms
+		_delay_ms(500);
+	}
+	return 0;
+}
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/novus-alex/AVRCompiler/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
