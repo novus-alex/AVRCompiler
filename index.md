@@ -1,4 +1,4 @@
-## Welcome to AVRCompiler docs
+# Welcome to AVRCompiler docs
 
 This software was created to compile and upload C or ASM files to microcontroller such as atmega328p
 
