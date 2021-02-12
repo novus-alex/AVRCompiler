@@ -1,8 +1,5 @@
 theme: jekyll-theme-cayman
-  features:
-    - navigation.tabs
-    - toc.integrate
-    
-nav:
-  - Section:
-    - section/index.md
+
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "logo"
