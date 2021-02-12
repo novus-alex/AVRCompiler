@@ -2,7 +2,7 @@
 
 This software was created to compile and upload C or ASM files to microcontroller such as atmega328p
 
-### Setup
+## Setup
 
 Works with java-11+ . Be sure to use the correct java version
 
