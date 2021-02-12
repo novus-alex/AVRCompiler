@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
   features:
     - navigation.tabs
+    - toc.integrate
     
 nav:
   - Section:
