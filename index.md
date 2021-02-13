@@ -44,5 +44,7 @@ int main(void) {
 	return 0;
 }
 ```
+## Table of Context
 
-[Main Functions](https://novus-alex.github.io/AVRCompiler/main_functions)
+AVRCompiler docs
+* [Main Functions](https://novus-alex.github.io/AVRCompiler/main_functions)
